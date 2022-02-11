@@ -26,16 +26,8 @@ const RightSide = ({ setIsItemAvilableOpen, isItemAvilableOpen }) => {
           : null
         }
         <Content setIsItemAvilableOpen={setIsItemAvilableOpen} isItemAvilableOpen={isItemAvilableOpen} isPaymentOptionOpen={isPaymentOptionOpen} setPaymentOptionOpen={setPaymentOptionOpen} />
-        {pathname == '/page1' ?
-          <Info
-            isPaymentOptionOpen={isPaymentOptionOpen}
-            setPaymentOptionOpen={setPaymentOptionOpen}
-          />
-          : <Info
-            isPaymentOptionOpen={isPaymentOptionOpen}
-            setPaymentOptionOpen={setPaymentOptionOpen}
-            quatityEditable
-          />}
+        {pathname == '/page1' }
+          
       </div>
     </div>
   )

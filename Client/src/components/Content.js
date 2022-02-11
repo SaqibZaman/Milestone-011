@@ -759,13 +759,7 @@ const Content = ({ isPaymentOptionOpen, setPaymentOptionOpen, isItemAvilableOpen
           <OrdersContent />
         ) : ''
       }
-      <div id='kitchen-ico'>
-        <img
-          src={kitchen}
-          alt='kitchen'
-          onClick={() => Navigate('/kds')}
-        />
-      </div>
+      
     </div >
   )
 }

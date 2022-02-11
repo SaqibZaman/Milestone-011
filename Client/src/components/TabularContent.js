@@ -144,13 +144,14 @@ const TabularContent = () => {
         style={
           {
             width: "170px",
-            margin: "10px auto",
+            margin: "30px auto 10px auto",
             padding: "10px 40px",
-            backgroundColor: "#4472C4",
+            // backgroundColor: "#4472C4",
+            backgroundColor: "#DEFAE2",
             fontSize: "15px",
             borderRadius: "5px",
             border: "0",
-            color: "white",
+            color: "black",
             fontSize: "bold",
             cursor: "pointer",
           }
